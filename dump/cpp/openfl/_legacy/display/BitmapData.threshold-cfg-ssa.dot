@@ -1,0 +1,861 @@
+digraph graphname {
+	node [shape=plaintext];
+n3320[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3320) BKNormal</td></tr>
+	<tr><td port="e0" align="left">memory.position = 0</td></tr>
+	<tr><td port="e1" align="left">bitmapData.setPixels(sourceRect, memory)</td></tr>
+	<tr><td port="e2" align="left">var _hx_tmp = bitmapData.get_rect()</td></tr>
+	<tr><td port="e3" align="left">this.copyPixels(bitmapData, _hx_tmp, destPoint, null, null, null)</td></tr>
+	<tr><td port="e4" align="left">openfl._legacy.Memory.select(null)</td></tr>
+	<tr><td port="e5" align="left">return hits</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3319[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3319) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3318[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3318) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3317[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3317) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3316[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3316) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3315[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3315) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3314[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3314) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = canvasMemory + position</td></tr>
+	<tr><td port="e1" align="left">var _hx_tmp = openfl._legacy.Memory.getI32(_hx_tmp)</td></tr>
+	<tr><td port="e2" align="left">openfl._legacy.Memory.setI32(position, _hx_tmp)</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3313[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3313) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3312[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3312) BKSub</td></tr>
+	<tr><td port="e0" align="left">hits = hits + 1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3311[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3311) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var copySource = copySource</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch copySource</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3310[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3310) BKConditional</td></tr>
+	<tr><td port="e0" align="left">openfl._legacy.Memory.setI32(position, color)</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3309[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3309) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var test = test</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch test</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3308[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3308) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3307[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3307) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3306[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3306) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3305[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3305) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3304[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3304) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3303[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3303) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3302[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3302) BKConditional</td></tr>
+	<tr><td port="e0" align="left">test = true</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3301[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3301) BKConditional</td></tr>
+	<tr><td port="e0" align="left">test = i == 1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3300[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3300) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var test = ! i == 0</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch test</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3299[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3299) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3298[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3298) BKConditional</td></tr>
+	<tr><td port="e0" align="left">test = true</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3297[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3297) BKConditional</td></tr>
+	<tr><td port="e0" align="left">test = i == -1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3296[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3296) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = operation == \"&gt;=\"</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3295[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3295) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var test = ! i == 0</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch test</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3294[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3294) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = operation == \"&lt;=\"</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3293[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3293) BKConditional</td></tr>
+	<tr><td port="e0" align="left">test = i != 0</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3292[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3292) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = operation == \"!=\"</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3291[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3291) BKConditional</td></tr>
+	<tr><td port="e0" align="left">test = i == 1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3290[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3290) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = operation == \"&gt;\"</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3289[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3289) BKConditional</td></tr>
+	<tr><td port="e0" align="left">test = i == -1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3288[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3288) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = operation == \"&lt;\"</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3287[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3287) BKConditional</td></tr>
+	<tr><td port="e0" align="left">test = i == 0</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3286[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3286) BKNormal</td></tr>
+	<tr><td port="e0" align="left">`3 = `3 + 1</td></tr>
+	<tr><td port="e1" align="left">var xx = `3 - 1</td></tr>
+	<tr><td port="e2" align="left">var position = xx + sx</td></tr>
+	<tr><td port="e3" align="left">var position = yy + sy</td></tr>
+	<tr><td port="e4" align="left">var position = position * sw</td></tr>
+	<tr><td port="e5" align="left">var position = position + position</td></tr>
+	<tr><td port="e6" align="left">position = position * 4</td></tr>
+	<tr><td port="e7" align="left">pixelValue = openfl._legacy.Memory.getI32(position)</td></tr>
+	<tr><td port="e8" align="left">pixelMask = cast pixelValue &amp; mask</td></tr>
+	<tr><td port="e9" align="left">i = openfl._legacy.display.BitmapData.__ucompare(pixelMask, thresholdMask)</td></tr>
+	<tr><td port="e10" align="left">test = false</td></tr>
+	<tr><td port="e11" align="left">var _hx_tmp = operation == \"==\"</td></tr>
+	<tr><td port="e12" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3285[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3285) BKConditional</td></tr>
+	<tr><td port="e0" align="left">break</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3284[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3284) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = ! ((`3 &lt; `2))</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3283[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3283) BKLoopHead</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3282[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3282) BKNormal</td></tr>
+	<tr><td port="e0" align="left">while ((true)) @:block 3284</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3281[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3281) BKSub</td></tr>
+	<tr><td port="e0" align="left">var `3 = 0</td></tr>
+	<tr><td port="e1" align="left">var `2 = dw</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3280[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3280) BKNormal</td></tr>
+	<tr><td port="e0" align="left">`1 = `1 + 1</td></tr>
+	<tr><td port="e1" align="left">var yy = `1 - 1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3279[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3279) BKConditional</td></tr>
+	<tr><td port="e0" align="left">break</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3278[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3278) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = ! ((`1 &lt; `))</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3277[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3277) BKLoopHead</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3276[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3276) BKNormal</td></tr>
+	<tr><td port="e0" align="left">while ((true)) @:block 3278</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3275[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3275) BKSub</td></tr>
+	<tr><td port="e0" align="left">var `1 = 0</td></tr>
+	<tr><td port="e1" align="left">var ` = dh</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3274[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3274) BKNormal</td></tr>
+	<tr><td port="e0" align="left">memory.position = 0</td></tr>
+	<tr><td port="e1" align="left">openfl._legacy.Memory.select(memory)</td></tr>
+	<tr><td port="e2" align="left">var thresholdMask = cast threshold &amp; mask</td></tr>
+	<tr><td port="e3" align="left">var position</td></tr>
+	<tr><td port="e4" align="left">var pixelMask</td></tr>
+	<tr><td port="e5" align="left">var pixelValue</td></tr>
+	<tr><td port="e6" align="left">var i</td></tr>
+	<tr><td port="e7" align="left">var test</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3273[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3273) BKConditional</td></tr>
+	<tr><td port="e0" align="left">memory.writeBytes(pixels, null, null)</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3272[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3272) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var totalMemory = canvasMemory + sourceMemory</td></tr>
+	<tr><td port="e1" align="left">var memory = new openfl._legacy.utils.ByteArray(null)</td></tr>
+	<tr><td port="e2" align="left">memory.setLength(totalMemory)</td></tr>
+	<tr><td port="e3" align="left">memory.position = 0</td></tr>
+	<tr><td port="e4" align="left">var bitmapData = sourceBitmapData.clone()</td></tr>
+	<tr><td port="e5" align="left">var pixels = bitmapData.getPixels(sourceRect)</td></tr>
+	<tr><td port="e6" align="left">memory.writeBytes(pixels, null, null)</td></tr>
+	<tr><td port="e7" align="left">memory.position = canvasMemory</td></tr>
+	<tr><td port="e8" align="left">var copySource = copySource</td></tr>
+	<tr><td port="e9" align="left">@:cond-branch copySource</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3271[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3271) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var sourceMemory = sw * sh</td></tr>
+	<tr><td port="e1" align="left">sourceMemory = sourceMemory * 4</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3270[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3270) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var hits = 0</td></tr>
+	<tr><td port="e1" align="left">var threshold = threshold &amp; 255</td></tr>
+	<tr><td port="e2" align="left">var threshold = threshold &lt;&lt; 24</td></tr>
+	<tr><td port="e3" align="left">var threshold = threshold &gt;&gt; 8</td></tr>
+	<tr><td port="e4" align="left">var threshold = threshold &amp; 255</td></tr>
+	<tr><td port="e5" align="left">var threshold = threshold &lt;&lt; 16</td></tr>
+	<tr><td port="e6" align="left">var threshold = threshold | threshold</td></tr>
+	<tr><td port="e7" align="left">var threshold = threshold &gt;&gt; 16</td></tr>
+	<tr><td port="e8" align="left">var threshold = threshold &amp; 255</td></tr>
+	<tr><td port="e9" align="left">var threshold = threshold &lt;&lt; 8</td></tr>
+	<tr><td port="e10" align="left">var threshold = threshold | threshold</td></tr>
+	<tr><td port="e11" align="left">var threshold = threshold &gt;&gt; 24</td></tr>
+	<tr><td port="e12" align="left">var threshold = threshold &amp; 255</td></tr>
+	<tr><td port="e13" align="left">threshold = threshold | threshold</td></tr>
+	<tr><td port="e14" align="left">var color = color &amp; 255</td></tr>
+	<tr><td port="e15" align="left">var color = color &lt;&lt; 24</td></tr>
+	<tr><td port="e16" align="left">var color = color &gt;&gt; 8</td></tr>
+	<tr><td port="e17" align="left">var color = color &amp; 255</td></tr>
+	<tr><td port="e18" align="left">var color = color &lt;&lt; 16</td></tr>
+	<tr><td port="e19" align="left">var color = color | color</td></tr>
+	<tr><td port="e20" align="left">var color = color &gt;&gt; 16</td></tr>
+	<tr><td port="e21" align="left">var color = color &amp; 255</td></tr>
+	<tr><td port="e22" align="left">var color = color &lt;&lt; 8</td></tr>
+	<tr><td port="e23" align="left">var color = color | color</td></tr>
+	<tr><td port="e24" align="left">var color = color &gt;&gt; 24</td></tr>
+	<tr><td port="e25" align="left">var color = color &amp; 255</td></tr>
+	<tr><td port="e26" align="left">color = color | color</td></tr>
+	<tr><td port="e27" align="left">var canvasMemory = sw * sh</td></tr>
+	<tr><td port="e28" align="left">var canvasMemory = canvasMemory * 4</td></tr>
+	<tr><td port="e29" align="left">var sourceMemory = 0</td></tr>
+	<tr><td port="e30" align="left">var copySource = copySource</td></tr>
+	<tr><td port="e31" align="left">@:cond-branch copySource</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3269[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3269) BKConditional</td></tr>
+	<tr><td port="e0" align="left">dh = sh</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3268[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3268) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var dh = this.get_height()</td></tr>
+	<tr><td port="e1" align="left">var dh = dh - sh</td></tr>
+	<tr><td port="e2" align="left">var dh = dh - dy</td></tr>
+	<tr><td port="e3" align="left">dh = sh + dh</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3267[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3267) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var dh</td></tr>
+	<tr><td port="e1" align="left">var dh = bw &lt; 0</td></tr>
+	<tr><td port="e2" align="left">@:cond-branch dh</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3266[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3266) BKConditional</td></tr>
+	<tr><td port="e0" align="left">dw = sw</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3265[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3265) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var dw = this.get_width()</td></tr>
+	<tr><td port="e1" align="left">var dw = dw - sw</td></tr>
+	<tr><td port="e2" align="left">var dw = dw - dx</td></tr>
+	<tr><td port="e3" align="left">dw = sw + dw</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3264[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3264) BKNormal</td></tr>
+	<tr><td port="e0" align="left">memory.position = 0</td></tr>
+	<tr><td port="e1" align="left">var _hx_tmp = this.get_rect()</td></tr>
+	<tr><td port="e2" align="left">this.setPixels(_hx_tmp, memory)</td></tr>
+	<tr><td port="e3" align="left">openfl._legacy.Memory.select(null)</td></tr>
+	<tr><td port="e4" align="left">return hits</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3263[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3263) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3262[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3262) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3261[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3261) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3260[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3260) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3259[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3259) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3258[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3258) BKSub</td></tr>
+	<tr><td port="e0" align="left">hits = hits + 1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3257[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3257) BKConditional</td></tr>
+	<tr><td port="e0" align="left">openfl._legacy.Memory.setI32(position, color)</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3256[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3256) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var test = test</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch test</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3255[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3255) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3254[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3254) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3253[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3253) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3252[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3252) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3251[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3251) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3250[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3250) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3249[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3249) BKConditional</td></tr>
+	<tr><td port="e0" align="left">test = true</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3248[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3248) BKConditional</td></tr>
+	<tr><td port="e0" align="left">test = i == 1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3247[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3247) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var test = ! i == 0</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch test</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3246[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3246) BKNormal</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3245[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3245) BKConditional</td></tr>
+	<tr><td port="e0" align="left">test = true</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3244[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3244) BKConditional</td></tr>
+	<tr><td port="e0" align="left">test = i == -1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3243[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3243) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = operation == \"&gt;=\"</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3242[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3242) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var test = ! i == 0</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch test</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3241[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3241) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = operation == \"&lt;=\"</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3240[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3240) BKConditional</td></tr>
+	<tr><td port="e0" align="left">test = i != 0</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3239[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3239) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = operation == \"!=\"</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3238[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3238) BKConditional</td></tr>
+	<tr><td port="e0" align="left">test = i == 1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3237[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3237) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = operation == \"&gt;\"</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3236[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3236) BKConditional</td></tr>
+	<tr><td port="e0" align="left">test = i == -1</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3235[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3235) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = operation == \"&lt;\"</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3234[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3234) BKConditional</td></tr>
+	<tr><td port="e0" align="left">test = i == 0</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3233[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3233) BKNormal</td></tr>
+	<tr><td port="e0" align="left">`3 = `3 + 1</td></tr>
+	<tr><td port="e1" align="left">var xx = `3 - 1</td></tr>
+	<tr><td port="e2" align="left">var position = width_yy + xx</td></tr>
+	<tr><td port="e3" align="left">position = position * 4</td></tr>
+	<tr><td port="e4" align="left">pixelValue = openfl._legacy.Memory.getI32(position)</td></tr>
+	<tr><td port="e5" align="left">pixelMask = cast pixelValue &amp; mask</td></tr>
+	<tr><td port="e6" align="left">i = openfl._legacy.display.BitmapData.__ucompare(pixelMask, thresholdMask)</td></tr>
+	<tr><td port="e7" align="left">test = false</td></tr>
+	<tr><td port="e8" align="left">var _hx_tmp = operation == \"==\"</td></tr>
+	<tr><td port="e9" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3232[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3232) BKConditional</td></tr>
+	<tr><td port="e0" align="left">break</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3231[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3231) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = ! ((`3 &lt; `2))</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3230[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3230) BKLoopHead</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3229[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3229) BKNormal</td></tr>
+	<tr><td port="e0" align="left">while ((true)) @:block 3231</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3228[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3228) BKSub</td></tr>
+	<tr><td port="e0" align="left">var `3 = 0</td></tr>
+	<tr><td port="e1" align="left">var `2 = this.get_width()</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3227[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3227) BKNormal</td></tr>
+	<tr><td port="e0" align="left">`1 = `1 + 1</td></tr>
+	<tr><td port="e1" align="left">var yy = `1 - 1</td></tr>
+	<tr><td port="e2" align="left">var width_yy = this.get_width()</td></tr>
+	<tr><td port="e3" align="left">width_yy = width_yy * yy</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3226[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3226) BKConditional</td></tr>
+	<tr><td port="e0" align="left">break</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3225[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3225) BKNormal</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = ! ((`1 &lt; `))</td></tr>
+	<tr><td port="e1" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3224[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3224) BKLoopHead</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3223[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3223) BKNormal</td></tr>
+	<tr><td port="e0" align="left">while ((true)) @:block 3225</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3222[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3222) BKSub</td></tr>
+	<tr><td port="e0" align="left">var `1 = 0</td></tr>
+	<tr><td port="e1" align="left">var ` = this.get_height()</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3221[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3221) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var sx = Std.int(sourceRect.x)</td></tr>
+	<tr><td port="e1" align="left">var sy = Std.int(sourceRect.y)</td></tr>
+	<tr><td port="e2" align="left">var sw = sourceBitmapData.get_width()</td></tr>
+	<tr><td port="e3" align="left">var sw = Std.int(sw)</td></tr>
+	<tr><td port="e4" align="left">var sh = sourceBitmapData.get_height()</td></tr>
+	<tr><td port="e5" align="left">var sh = Std.int(sh)</td></tr>
+	<tr><td port="e6" align="left">var dx = Std.int(destPoint.x)</td></tr>
+	<tr><td port="e7" align="left">var dy = Std.int(destPoint.y)</td></tr>
+	<tr><td port="e8" align="left">var bw = this.get_width()</td></tr>
+	<tr><td port="e9" align="left">var bw = bw - sw</td></tr>
+	<tr><td port="e10" align="left">var bw = bw - dx</td></tr>
+	<tr><td port="e11" align="left">var bh = this.get_height()</td></tr>
+	<tr><td port="e12" align="left">var bh = bh - sh</td></tr>
+	<tr><td port="e13" align="left">var bh = bh - dy</td></tr>
+	<tr><td port="e14" align="left">var dw</td></tr>
+	<tr><td port="e15" align="left">var dw = bw &lt; 0</td></tr>
+	<tr><td port="e16" align="left">@:cond-branch dw</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3220[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3220) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var hits = 0</td></tr>
+	<tr><td port="e1" align="left">var threshold = threshold &amp; 255</td></tr>
+	<tr><td port="e2" align="left">var threshold = threshold &lt;&lt; 24</td></tr>
+	<tr><td port="e3" align="left">var threshold = threshold &gt;&gt; 8</td></tr>
+	<tr><td port="e4" align="left">var threshold = threshold &amp; 255</td></tr>
+	<tr><td port="e5" align="left">var threshold = threshold &lt;&lt; 16</td></tr>
+	<tr><td port="e6" align="left">var threshold = threshold | threshold</td></tr>
+	<tr><td port="e7" align="left">var threshold = threshold &gt;&gt; 16</td></tr>
+	<tr><td port="e8" align="left">var threshold = threshold &amp; 255</td></tr>
+	<tr><td port="e9" align="left">var threshold = threshold &lt;&lt; 8</td></tr>
+	<tr><td port="e10" align="left">var threshold = threshold | threshold</td></tr>
+	<tr><td port="e11" align="left">var threshold = threshold &gt;&gt; 24</td></tr>
+	<tr><td port="e12" align="left">var threshold = threshold &amp; 255</td></tr>
+	<tr><td port="e13" align="left">threshold = threshold | threshold</td></tr>
+	<tr><td port="e14" align="left">var color = color &amp; 255</td></tr>
+	<tr><td port="e15" align="left">var color = color &lt;&lt; 24</td></tr>
+	<tr><td port="e16" align="left">var color = color &gt;&gt; 8</td></tr>
+	<tr><td port="e17" align="left">var color = color &amp; 255</td></tr>
+	<tr><td port="e18" align="left">var color = color &lt;&lt; 16</td></tr>
+	<tr><td port="e19" align="left">var color = color | color</td></tr>
+	<tr><td port="e20" align="left">var color = color &gt;&gt; 16</td></tr>
+	<tr><td port="e21" align="left">var color = color &amp; 255</td></tr>
+	<tr><td port="e22" align="left">var color = color &lt;&lt; 8</td></tr>
+	<tr><td port="e23" align="left">var color = color | color</td></tr>
+	<tr><td port="e24" align="left">var color = color &gt;&gt; 24</td></tr>
+	<tr><td port="e25" align="left">var color = color &amp; 255</td></tr>
+	<tr><td port="e26" align="left">color = color | color</td></tr>
+	<tr><td port="e27" align="left">var memory = new openfl._legacy.utils.ByteArray(null)</td></tr>
+	<tr><td port="e28" align="left">var _hx_tmp = this.get_width()</td></tr>
+	<tr><td port="e29" align="left">var _hx_tmp = this.get_height()</td></tr>
+	<tr><td port="e30" align="left">var _hx_tmp = _hx_tmp * _hx_tmp</td></tr>
+	<tr><td port="e31" align="left">var _hx_tmp = _hx_tmp * 4</td></tr>
+	<tr><td port="e32" align="left">memory.setLength(_hx_tmp)</td></tr>
+	<tr><td port="e33" align="left">var memory = this.get_rect()</td></tr>
+	<tr><td port="e34" align="left">memory = this.getPixels(memory)</td></tr>
+	<tr><td port="e35" align="left">memory.position = 0</td></tr>
+	<tr><td port="e36" align="left">openfl._legacy.Memory.select(memory)</td></tr>
+	<tr><td port="e37" align="left">var thresholdMask = cast threshold &amp; mask</td></tr>
+	<tr><td port="e38" align="left">var width_yy</td></tr>
+	<tr><td port="e39" align="left">var position</td></tr>
+	<tr><td port="e40" align="left">var pixelMask</td></tr>
+	<tr><td port="e41" align="left">var pixelValue</td></tr>
+	<tr><td port="e42" align="left">var i</td></tr>
+	<tr><td port="e43" align="left">var test</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3219[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3219) BKNormal</td></tr>
+	<tr><td port="e0" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3218[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3218) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = false</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3217[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3217) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = destPoint.y == 0</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3216[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3216) BKNormal</td></tr>
+	<tr><td port="e0" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3215[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3215) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = false</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3214[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3214) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = destPoint.x == 0</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3213[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3213) BKNormal</td></tr>
+	<tr><td port="e0" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3212[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3212) BKConditional</td></tr>
+	<tr><td port="e0" align="left">_hx_tmp = false</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3211[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3211) BKConditional</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp = this.get_rect()</td></tr>
+	<tr><td port="e1" align="left">_hx_tmp = sourceRect.equals(_hx_tmp)</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3210[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3210) BKFunctionEnd</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n3209[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(3209) BKFunctionBegin</td></tr>
+	<tr><td port="e0" align="left">var _hx_tmp</td></tr>
+	<tr><td port="e1" align="left">var _hx_tmp</td></tr>
+	<tr><td port="e2" align="left">var _hx_tmp</td></tr>
+	<tr><td port="e3" align="left">var _hx_tmp = sourceBitmapData == this</td></tr>
+	<tr><td port="e4" align="left">@:cond-branch _hx_tmp</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1[label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+	<tr><td port="in" bgcolor="lightgray">(1) BKRoot</td></tr>
+	<tr><td port="out"></td></tr>
+</table>>];
+n1:out -> n3209:in[label="CFGFunction"];
+n3209:out -> n3212:in[label="CFGCondElse"];
+n3209:out -> n3211:in[label="CFGCondBranch true"];
+n3211:out -> n3213:in[label="CFGGoto"];
+n3213:out -> n3215:in[label="CFGCondElse"];
+n3213:out -> n3214:in[label="CFGCondBranch true"];
+n3214:out -> n3216:in[label="CFGGoto"];
+n3216:out -> n3218:in[label="CFGCondElse"];
+n3216:out -> n3217:in[label="CFGCondBranch true"];
+n3217:out -> n3219:in[label="CFGGoto"];
+n3219:out -> n3221:in[label="CFGCondElse"];
+n3219:out -> n3220:in[label="CFGCondBranch true"];
+n3220:out -> n3222:in[label="CFGGoto"];
+n3222:out -> n3223:in[label="CFGGoto"];
+n3223:out -> n3224:in[label="CFGGoto"];
+n3224:out -> n3225:in[label="CFGGoto"];
+n3225:out -> n3227:in[label="CFGCondElse"];
+n3225:out -> n3226:in[label="CFGCondBranch true"];
+n3226:out -> n3263:in[label="CFGGoto"];
+n3263:out -> n3264:in[label="CFGGoto"];
+n3264:out -> n3210:in[label="CFGGoto"];
+n3227:out -> n3228:in[label="CFGGoto"];
+n3228:out -> n3229:in[label="CFGGoto"];
+n3229:out -> n3230:in[label="CFGGoto"];
+n3230:out -> n3231:in[label="CFGGoto"];
+n3231:out -> n3233:in[label="CFGCondElse"];
+n3231:out -> n3232:in[label="CFGCondBranch true"];
+n3232:out -> n3261:in[label="CFGGoto"];
+n3261:out -> n3262:in[label="CFGGoto"];
+n3262:out -> n3224:in[label="CFGGoto"];
+n3233:out -> n3235:in[label="CFGCondElse"];
+n3233:out -> n3234:in[label="CFGCondBranch true"];
+n3234:out -> n3256:in[label="CFGGoto"];
+n3256:out -> n3260:in[label="CFGCondElse"];
+n3256:out -> n3257:in[label="CFGCondBranch true"];
+n3257:out -> n3258:in[label="CFGGoto"];
+n3258:out -> n3259:in[label="CFGGoto"];
+n3259:out -> n3260:in[label="CFGGoto"];
+n3260:out -> n3230:in[label="CFGGoto"];
+n3235:out -> n3237:in[label="CFGCondElse"];
+n3235:out -> n3236:in[label="CFGCondBranch true"];
+n3236:out -> n3255:in[label="CFGGoto"];
+n3255:out -> n3256:in[label="CFGGoto"];
+n3237:out -> n3239:in[label="CFGCondElse"];
+n3237:out -> n3238:in[label="CFGCondBranch true"];
+n3238:out -> n3254:in[label="CFGGoto"];
+n3254:out -> n3255:in[label="CFGGoto"];
+n3239:out -> n3241:in[label="CFGCondElse"];
+n3239:out -> n3240:in[label="CFGCondBranch true"];
+n3240:out -> n3253:in[label="CFGGoto"];
+n3253:out -> n3254:in[label="CFGGoto"];
+n3241:out -> n3243:in[label="CFGCondElse"];
+n3241:out -> n3242:in[label="CFGCondBranch true"];
+n3242:out -> n3245:in[label="CFGCondElse"];
+n3242:out -> n3244:in[label="CFGCondBranch true"];
+n3244:out -> n3246:in[label="CFGGoto"];
+n3246:out -> n3252:in[label="CFGGoto"];
+n3245:out -> n3246:in[label="CFGGoto"];
+n3252:out -> n3253:in[label="CFGGoto"];
+n3243:out -> n3251:in[label="CFGCondElse"];
+n3243:out -> n3247:in[label="CFGCondBranch true"];
+n3247:out -> n3249:in[label="CFGCondElse"];
+n3247:out -> n3248:in[label="CFGCondBranch true"];
+n3248:out -> n3250:in[label="CFGGoto"];
+n3250:out -> n3251:in[label="CFGGoto"];
+n3249:out -> n3250:in[label="CFGGoto"];
+n3251:out -> n3252:in[label="CFGGoto"];
+n3221:out -> n3266:in[label="CFGCondElse"];
+n3221:out -> n3265:in[label="CFGCondBranch true"];
+n3265:out -> n3267:in[label="CFGGoto"];
+n3267:out -> n3269:in[label="CFGCondElse"];
+n3267:out -> n3268:in[label="CFGCondBranch true"];
+n3268:out -> n3270:in[label="CFGGoto"];
+n3270:out -> n3272:in[label="CFGCondElse"];
+n3270:out -> n3271:in[label="CFGCondBranch true"];
+n3271:out -> n3272:in[label="CFGGoto"];
+n3272:out -> n3274:in[label="CFGCondElse"];
+n3272:out -> n3273:in[label="CFGCondBranch true"];
+n3273:out -> n3274:in[label="CFGGoto"];
+n3274:out -> n3275:in[label="CFGGoto"];
+n3275:out -> n3276:in[label="CFGGoto"];
+n3276:out -> n3277:in[label="CFGGoto"];
+n3277:out -> n3278:in[label="CFGGoto"];
+n3278:out -> n3280:in[label="CFGCondElse"];
+n3278:out -> n3279:in[label="CFGCondBranch true"];
+n3279:out -> n3319:in[label="CFGGoto"];
+n3319:out -> n3320:in[label="CFGGoto"];
+n3320:out -> n3210:in[label="CFGGoto"];
+n3280:out -> n3281:in[label="CFGGoto"];
+n3281:out -> n3282:in[label="CFGGoto"];
+n3282:out -> n3283:in[label="CFGGoto"];
+n3283:out -> n3284:in[label="CFGGoto"];
+n3284:out -> n3286:in[label="CFGCondElse"];
+n3284:out -> n3285:in[label="CFGCondBranch true"];
+n3285:out -> n3317:in[label="CFGGoto"];
+n3317:out -> n3318:in[label="CFGGoto"];
+n3318:out -> n3277:in[label="CFGGoto"];
+n3286:out -> n3288:in[label="CFGCondElse"];
+n3286:out -> n3287:in[label="CFGCondBranch true"];
+n3287:out -> n3309:in[label="CFGGoto"];
+n3309:out -> n3311:in[label="CFGCondElse"];
+n3309:out -> n3310:in[label="CFGCondBranch true"];
+n3310:out -> n3312:in[label="CFGGoto"];
+n3312:out -> n3313:in[label="CFGGoto"];
+n3313:out -> n3316:in[label="CFGGoto"];
+n3316:out -> n3283:in[label="CFGGoto"];
+n3311:out -> n3315:in[label="CFGCondElse"];
+n3311:out -> n3314:in[label="CFGCondBranch true"];
+n3314:out -> n3315:in[label="CFGGoto"];
+n3315:out -> n3316:in[label="CFGGoto"];
+n3288:out -> n3290:in[label="CFGCondElse"];
+n3288:out -> n3289:in[label="CFGCondBranch true"];
+n3289:out -> n3308:in[label="CFGGoto"];
+n3308:out -> n3309:in[label="CFGGoto"];
+n3290:out -> n3292:in[label="CFGCondElse"];
+n3290:out -> n3291:in[label="CFGCondBranch true"];
+n3291:out -> n3307:in[label="CFGGoto"];
+n3307:out -> n3308:in[label="CFGGoto"];
+n3292:out -> n3294:in[label="CFGCondElse"];
+n3292:out -> n3293:in[label="CFGCondBranch true"];
+n3293:out -> n3306:in[label="CFGGoto"];
+n3306:out -> n3307:in[label="CFGGoto"];
+n3294:out -> n3296:in[label="CFGCondElse"];
+n3294:out -> n3295:in[label="CFGCondBranch true"];
+n3295:out -> n3298:in[label="CFGCondElse"];
+n3295:out -> n3297:in[label="CFGCondBranch true"];
+n3297:out -> n3299:in[label="CFGGoto"];
+n3299:out -> n3305:in[label="CFGGoto"];
+n3298:out -> n3299:in[label="CFGGoto"];
+n3305:out -> n3306:in[label="CFGGoto"];
+n3296:out -> n3304:in[label="CFGCondElse"];
+n3296:out -> n3300:in[label="CFGCondBranch true"];
+n3300:out -> n3302:in[label="CFGCondElse"];
+n3300:out -> n3301:in[label="CFGCondBranch true"];
+n3301:out -> n3303:in[label="CFGGoto"];
+n3303:out -> n3304:in[label="CFGGoto"];
+n3302:out -> n3303:in[label="CFGGoto"];
+n3304:out -> n3305:in[label="CFGGoto"];
+n3269:out -> n3270:in[label="CFGGoto"];
+n3266:out -> n3267:in[label="CFGGoto"];
+n3218:out -> n3219:in[label="CFGGoto"];
+n3215:out -> n3216:in[label="CFGGoto"];
+n3212:out -> n3213:in[label="CFGGoto"];
+}
